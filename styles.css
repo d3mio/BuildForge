@@ -127,7 +127,7 @@ body {
     min-height: 100vh;
     padding: 120px 20px 80px;
     background: linear-gradient(135deg, #def2f1 0%, #feffff 100%);
-    max-width: 1200px;
+    max-width: 3000px;
     margin: 0 auto;
     gap: 4rem;
 }
