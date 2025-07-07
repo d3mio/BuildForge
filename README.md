@@ -1,3 +1,3 @@
 # BuildForge
-url: [ https://d3mio.github.io/BuildForge/]
+url:  https://d3mio.github.io/BuildForge/
 
