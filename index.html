@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildForge - Construction & Architecture Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-building"></i>
+                <span>BuildForge</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#services" class="nav-link">Our Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#quote" class="nav-link quote-btn">Get Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Building Dreams Into Reality</h1>
+            <p>Expert construction and architectural services for residential and commercial projects. From concept to completion.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Our Work</a>
+                <a href="#quote" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop" alt="Modern Architecture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About BuildForge</h2>
+                    <p>With over 15 years of experience in construction and architecture, BuildForge has established itself as a leader in creating innovative, sustainable, and functional spaces.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <i class="fas fa-home"></i>
+                            <h3>500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <h3>50+</h3>
+                            <p>Expert Team</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-award"></i>
+                            <h3>25+</h3>
+                            <p>Awards Won</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=400&fit=crop" alt="Team at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Architecture Design</h3>
+                    <p>Innovative architectural solutions tailored to your vision and requirements.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Interior Design</h3>
+                    <p>Transform your spaces with our expert interior design services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Site Supervision</h3>
+                    <p>Professional oversight ensuring quality and timely project completion.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Commercial Projects</h3>
+                    <p>Large-scale commercial construction with modern techniques.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Residential Projects</h3>
+                    <p>Custom homes designed for comfort and functionality.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cube"></i>
+                    <h3>3D Visualization</h3>
+                    <p>Immersive 3D walkthroughs to visualize your project before construction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop" alt="Modern Villa">
+                    <div class="project-overlay">
+                        <h3>Modern Villa</h3>
+                        <p>Luxury residential design</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop" alt="Office Complex">
+                    <div class="project-overlay">
+                        <h3>Office Complex</h3>
+                        <p>Corporate headquarters</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop" alt="Contemporary Home">
+                    <div class="project-overlay">
+                        <h3>Contemporary Home</h3>
+                        <p>Minimalist design</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="project-card" data-category="industrial">
+                    <img src="https://images.unsplash.com/photo-1582389804308-8d4d84eeb6e4?w=400&h=300&fit=crop" alt="Industrial Facility">
+                    <div class="project-overlay">
+                        <h3>Industrial Facility</h3>
+                        <p>Manufacturing plant</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=300&fit=crop" alt="Shopping Center">
+                    <div class="project-overlay">
+                        <h3>Shopping Center</h3>
+                        <p>Retail complex</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=400&h=300&fit=crop" alt="Eco Home">
+                    <div class="project-overlay">
+                        <h3>Eco Home</h3>
+                        <p>Sustainable living</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Insights</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" alt="Modern Home Trends">
+                    <div class="blog-content">
+                        <span class="blog-date">July 5, 2025</span>
+                        <h3>Top 10 Modern Home Trends for 2025</h3>
+                        <p>Discover the latest architectural trends shaping modern home design...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=250&fit=crop" alt="Sustainable Building">
+                    <div class="blog-content">
+                        <span class="blog-date">July 3, 2025</span>
+                        <h3>Sustainable Building Materials: The Future of Construction</h3>
+                        <p>Exploring eco-friendly materials that are revolutionizing construction...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400&h=250&fit=crop" alt="3D Visualization">
+                    <div class="blog-content">
+                        <span class="blog-date">July 1, 2025</span>
+                        <h3>How 3D Visualization is Changing Architecture</h3>
+                        <p>The impact of virtual reality and 3D modeling on architectural design...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section id="quote" class="quote">
+        <div class="container">
+            <div class="quote-content">
+                <h2>Request a Quote</h2>
+                <p>Ready to bring your vision to life? Get a personalized quote for your project.</p>
+                <form class="quote-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                        <select required>
+                            <option value="">Project Type</option>
+                            <option value="residential">Residential</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="industrial">Industrial</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Project Details" rows="5" required></textarea>
+                    <div class="file-upload">
+                        <i class="fas fa-upload"></i>
+                        <span>Upload Plans (Optional)</span>
+                        <input type="file" multiple accept=".pdf,.jpg,.png,.dwg">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Request Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-building"></i>
+                        <span>BuildForge</span>
+                    </div>
+                    <p>Building dreams into reality with innovative construction and architectural solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Architecture Design</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                        <li><a href="#">Site Supervision</a></li>
+                        <li><a href="#">3D Visualization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Construction Ave, City, State 12345</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@buildforge.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BuildForge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
